@@ -93,6 +93,7 @@ const Quiz = () => {
     setTimer(10);
   };
 
+  
   return (
     <div className='Container'>
       <h1>Quiz-Web</h1>
