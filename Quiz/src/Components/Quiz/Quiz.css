@@ -133,4 +133,51 @@
   color: #ff5722;
   margin: 10px 0;
 }
+@media (max-width: 768px) {
+  .Container {
+    width: 90%;
+    padding: 25px 20px;
+    margin-top: 40px;
+  }
+
+  .Container h2 {
+    font-size: 22px;
+  }
+
+  .Container ul li {
+    font-size: 16px;
+    height: auto;
+    padding: 12px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .Container button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .result {
+    padding: 20px;
+  }
+
+  .result h2 {
+    font-size: 22px;
+  }
+
+  .result p {
+    font-size: 18px;
+  }
+
+  .score {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .timer {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
 
